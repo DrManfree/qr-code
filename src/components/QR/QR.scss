@@ -1,0 +1,27 @@
+.qr-panel {
+    width: 300px;
+    background: white;
+    padding: 15px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 5%;
+    text-align: center;
+
+    .qr-image {
+        max-width: 100%;
+        border-radius: 15px;
+    }
+
+    .main-text {
+        margin: 15px 0;
+        font-size: 22px;
+        font-weight: 700;
+        color: hsl(218, 44%, 22%);
+    }
+
+    .sub-text {
+        font-size: 15px;
+        padding: 0 15px;
+        color: hsl(220, 15%, 55%);
+    }
+}
